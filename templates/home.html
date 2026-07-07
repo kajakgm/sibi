@@ -1,0 +1,22 @@
+<html>
+<body>
+welcome
+{% for i in pr %}
+{{i.pid}}<br>
+{{i.pname}}<br>
+{% if i.pimg %}
+<img src="{{i.pimg.url}}" width="200">
+{% else %}
+no image
+{% endif %}
+{% if i.files %}
+<a href="{{i.files.url}}" download>download</a>
+{% else %}
+no files
+{% endif  %}
+{% endfor %}
+
+
+
+</body>
+</html>
