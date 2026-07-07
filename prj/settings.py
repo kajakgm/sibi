@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=rop$&ii--h-y(5maoc=ndr2trv0$)dq=*3y*bsummc9wb%pf+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://sibi-joxb.onrender.com','127.0.0.1','*']
+ALLOWED_HOSTS = ['sibi-joxb.onrender.com','127.0.0.1','locahost']
 
 
 # Application definition
